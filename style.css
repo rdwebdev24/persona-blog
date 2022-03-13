@@ -1,0 +1,61 @@
+
+
+body{
+     background-image: url('https://media.istockphoto.com/photos/nautilus-blue-background-picture-id905432958?b=1&k=20&m=905432958&s=170667a&w=0&h=SKLefLqaFNHt3wUp-L82DKA6yclLhXPKSMgEZbTITrs=');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+.col-md-3 {
+     margin: 0;
+     padding: 0;
+}
+.col-md-9{
+     max-height: 91vh;
+     overflow-y: scroll;
+}
+::-webkit-scrollbar{
+     display: none;
+}
+
+#card_body{
+     box-shadow: 11px 13px 32px -8px rgba(0,0,0,0.75);
+     border-radius: 30px;
+}
+
+.img-fluid{
+     box-shadow: 11px 13px 32px -8px rgba(0,0,0,0.75);
+}
+
+h5{
+     font-family:'Permanent Marker', cursive;
+}
+
+#blogText{
+     letter-spacing: 3px;
+     font-family:'Indie Flower', cursive;
+}
+
+
+
+.nav-link:hover{
+    background-color: #000;
+}
+
+
+
+.accordion-item{
+     background-color: #333;
+     color: #fff;
+}
+.accordion-button{
+     background-color: #000;
+     color: #fff;
+}
+
+.fa-plus{
+     transition: all 0.3s ease-in-out;
+}
+.fa-plus:hover{
+     cursor: pointer;
+     transform: rotate(90deg);
+}
